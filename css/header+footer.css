@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'KBO-Dia-Gothic_bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KBO-Dia-Gothic_medium';
+  src: url('../font/font/KBO-Dia-Gothic_medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'KBO-Dia-Gothic_light';
+  src: url('../font/font/KBO-Dia-Gothic_light.woff') format('woff');
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  max-width: 767px;
+  margin: 0 auto;
+  font-family: 'KBO-Dia-Gothic_light';
+}
+
+.top {
+  z-index: 1000;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+.top a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(../image/top.png);
+  transition: 0.35s;
+
+}
+
+/* header=============== */
+header {
+  font-family: 'KBO-Dia-Gothic_medium';
+  font-weight: bold;
+  z-index: 10000;
+  width: 100%;
+  max-width: 767px;
+  position: fixed;
+  background-color: #ffff;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+#nav_sub {
+  height: 60px;
+  width: 100%;
+  max-width: 767px;
+  border-bottom: 2px solid #EAEAEA;
+}
+
+#nav_sub ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 60px;
+}
+
+#nav_sub ul li {
+  margin: 15px;
+}
+
+#nav_sub ul li:nth-child(1) {
+  width: 30px;
+}
+
+#nav_sub ul li:nth-child(2) p {
+  padding-left: 10px;
+}
+
+#nav_sub ul li img {
+  cursor: pointer;
+}
+
+/* footer================= */
+footer {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 767px;
+  height: 210px;
+  background-color: #1F4173;
+  color: #ffffffbe;
+  font-size: 12px;
+  font-weight: 500;
+  position: relative;
+}
+
+address img {
+  padding: 15px;
+}
+
+address p {
+  font-style: normal;
+  line-height: 20px;
+  margin: 0 20px;
+}
+
+.icon {
+  display: flex;
+}
+
+.icon p {
+  margin-top: 20px;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 50px;
+  background-color: #446CAB;
+  width: 150px;
+  font-weight: 500;
+}
+
+.icon img {
+  margin-top: 10px;
+  padding: 10px;
+}

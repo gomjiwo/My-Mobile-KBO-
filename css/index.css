@@ -1,0 +1,33 @@
+@import url(menu.css);
+@import url(header+footer.css);
+@import url(common.css);
+
+body {
+  border: 1px solid #ffffff;
+  width: 100%;
+  max-width: 767px;
+  margin: 0 auto;
+  background-color: #F5F5F5;
+  font-family: 'KBO-Dia-Gothic_light';
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #002063;
+}
+.home{text-align: center;}
+.logo{margin: 70px 0;}
+button{
+  border:none;
+  display: block;
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+  margin: 20px 0;
+  background-color: #002063;
+  color: #fff;
+  transition: 0.3s;
+}
+button:hover{color: #ec734a;}
+
